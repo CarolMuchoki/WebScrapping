@@ -22,6 +22,7 @@ ch = 'Y'
 
 while ch.upper() == 'Y':
     choice = input('Enter choice (1/2/3/4):')
+    query = ()
     if choice == '1':
         query = 'book shops near' + location
     if choice == '2':
